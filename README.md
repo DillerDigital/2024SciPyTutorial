@@ -57,8 +57,13 @@ $ conda activate scipy_2024_tutorial
 ```
 
 ## Start Jupyter Lab
-- From your terminal, type the following to launch the Jupyer Lab session we'll be using for the demo:
+- From your terminal, change to the directory you cloned or the direcotry where you downloaded the notebook and data directory.
+- Type the following to launch Jupyer Lab:
 
 ```
 (scipy_2024_tutorial) $ jupyter lab
 ```
+
+- Click the folder icon at the left edge of the browser window.
+- Double-click the file `scipy_2024_numpy_tutorial.ipynb`.
+- Appearance of the tutorial notebook indicates a successful installation.
