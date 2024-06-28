@@ -6,13 +6,13 @@ Materials the the NumPy Tutorial at SciPy 2024
 
 ## Download Tutorial Materials
 
-- The easiest way to get the materials would to clone this repository (SSH, HTTPS, or GitHub CLI should all work):
+- The easiest way to get the materials is to clone this repository (SSH, HTTPS, or GitHub CLI should all work) using commands in the green "Code" button above.  For example, using the SSH method, type:
 
 ```
 git clone git@github.com:DillerDigital/2024SciPyTutorial.git
 ```
 
-- You can also download `scipy_2024_numpy_tutorial.ipynb` and the `data` folder directly.
+- You can also download `scipy_2024_numpy_tutorial.ipynb` and the `data` folder directly using GitHub's download features.
 
 
 ## Create a Python Environment
