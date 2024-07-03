@@ -1,6 +1,6 @@
 # 2024 SciPy Tutorial - A Practical Introduction to NumPy
 
-Materials the the NumPy Tutorial at SciPy 2024
+Materials for the NumPy Tutorial at SciPy 2024
 
 # Setup Intructions
 
@@ -27,7 +27,7 @@ There are at least three good methods of using Python environments.  It doesn't 
 #### On MacOS or Linux/Unix:
 - In a terminal, type:
 ```
-$ python3 -m venv scipy_2024_tutorial
+$ python -m venv scipy_2024_tutorial
 $ source scipy_2024_tutorial/bin/activate
 (scipy_2024_tutorial) $ pip install jupyterlab numpy matplotlib
 ```
