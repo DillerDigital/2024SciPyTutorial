@@ -21,7 +21,7 @@ I **strongly recommend** that you work in a dedicated environment for this tutor
 There are at least three good methods of using Python environments.  It doesn't matter so much which one you select;  they each have their strengths and weaknesses.  The biggest advantage will be with the one you're already familiar with.
 
 ### Python + `pip`
-- If you don't have Python on your system, [download](https://www.python.org/downloads/) and install version 3.11 now.  (Some data science libraries are still working on complete compatibility with 3.12, but that is coming soon.)
+- If you don't have Python on your system, [download version 3.11](https://www.python.org/downloads/release/python-3119/) and install it now.  (Some data science libraries are still working on complete compatibility with 3.12, but that is coming soon.)
 - In your tutorials folder, type the following to create a `venv` and use `pip` to install the necessary dependencies.  Note:  depending on your system, you may need to type `python3` instead of `python` for the first line below to work:
 
 #### On MacOS or Linux/Unix:
