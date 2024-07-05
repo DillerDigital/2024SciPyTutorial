@@ -28,16 +28,16 @@ There are at least three good methods of using Python environments.  It doesn't 
 #### On MacOS or Linux/Unix:
 - In a terminal, type:
 ```
-$ python -m venv scipy_2024_tutorial
-$ source scipy_2024_tutorial/bin/activate
-(scipy_2024_tutorial) $ pip install jupyterlab numpy matplotlib
+$ python -m venv numpy_tutorial_venv
+$ source numpy_tutorial_venv/bin/activate
+(numpy_tutorial_venv) $ pip install jupyterlab numpy matplotlib
 ```
 
 #### On Windows
 - In a PowerShell terminal, type:
 ```
-C:\Users\you\Tutorial> python -m venv scipy_2024_tutorial
-C:\Users\you\Tutorial> scipy_2024_tutorial\Scripts\Activate.ps1
+C:\Users\you\Tutorial> python -m venv numpy_tutorial_venv
+C:\Users\you\Tutorial> numpy_tutorial_venv\Scripts\Activate.ps1
 (scipy_2024_tutorial)C:\Users\you\Tutorial> pip install jupyterlab numpy matplotlib
 ```
 
@@ -45,16 +45,16 @@ C:\Users\you\Tutorial> scipy_2024_tutorial\Scripts\Activate.ps1
 - The Enthought Deployment Manager `edm` will install Python executables and well-tested packages.  Currently delivering Python 3.8 and soon to deliver 3.11, the focus of packages delivered by `edm` is stability, thorough testing, and seamless interoperability.  There is is no need to install Python separately, as `edm` will install runtime executables.
 - [Download](https://assets.enthought.com/downloads/edm/) and [install](http://docs.enthought.com/edm/installation.html) Enthought's EDM.
 ```
-$ edm envs create scipy_2024_tutorial
-$ edm shell -e scipy_2024_tutorial
-(scipy_2024_tutorial) $ edm install jupyterlab numpy matplotlib
+$ edm envs create numpy_tutorial
+$ edm shell -e numpy_tutorial
+(numpy_tutorial) $ edm install jupyterlab numpy matplotlib
 ```
 
 ### Conda
 - Download the [`conda` installer](https://www.anaconda.com/download/) from Anaconda.  `conda` is a popular and widely-used distribution of Python and packages suitable for scientific computing.
 ```
-$ conda create -n scipy_2024_tutorial jupyterlab numpy matplotlib
-$ conda activate scipy_2024_tutorial
+$ conda create -n numpy_tutorial_venv jupyterlab numpy matplotlib
+$ conda activate numpy_tutorial_venv
 ```
 
 ## Start Jupyter Lab
@@ -62,7 +62,7 @@ $ conda activate scipy_2024_tutorial
 - Type the following to launch Jupyer Lab:
 
 ```
-(scipy_2024_tutorial) $ jupyter lab
+(numpy_tutorial_venv) $ jupyter lab
 ```
 
 - Click the folder icon at the left edge of the browser window.
