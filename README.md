@@ -12,7 +12,8 @@ Materials for the NumPy Tutorial at SciPy 2024
 git clone git@github.com:DillerDigital/2024SciPyTutorial.git
 ```
 
-- You can also download `scipy_2024_numpy_tutorial.ipynb` and the `data` folder directly using GitHub's download features.
+- You can also download the zipped folder directly using GitHub's download features.
+- Open a terminal session and navigate to the tutorial folder.
 
 
 ## Create a Python Environment
